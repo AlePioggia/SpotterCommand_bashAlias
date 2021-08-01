@@ -25,3 +25,5 @@ while read VALUE; do
 		fi
 		(( I=${I}+1 ))
 done< ./temp.txt
+
+
