@@ -29,11 +29,11 @@ while getopts ":h:d:f:i" option; do
         exit;;
     d)
         arg=$2
-        . SpotterDirectoryScript.sh ${arg}
+        . /home/alessandro/scripts/SpotterCommand_bashAlias/SpotterDirectoryScript.sh ${arg}
         ;;
     f)
         arg=$2
-        . SpotterCommandScript.sh ${arg}
+        . /home/alessandro/scripts/SpotterCommand_bashAlias/SpotterCommandScript.sh ${arg}
         ;;
    esac
 done
